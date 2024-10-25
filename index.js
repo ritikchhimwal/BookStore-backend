@@ -24,7 +24,7 @@ try{
 }
 
 app.get("/",(req,res)=>{
-    res.json("Hello From Book Hive);
+    res.json("Hello From Book Hive");
 });
 
 app.use("/book",bookRoute);
