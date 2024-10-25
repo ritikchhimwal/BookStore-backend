@@ -23,6 +23,10 @@ try{
     console.log("Error: ",error)
 }
 
+app.get("/",(req,res)=>{
+    res.json("Hello From Book Hive);
+});
+
 app.use("/book",bookRoute);
 app.use("/user", userRoute);
 
