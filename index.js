@@ -28,7 +28,6 @@ app.get("/",(req,res)=>{
 });
 
 app.use("/book",bookRoute);
-app.use("/course",bookRoute);
 app.use("/user", userRoute);
 
 app.listen(PORT, () => {
